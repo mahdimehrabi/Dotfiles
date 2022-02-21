@@ -163,9 +163,14 @@ set statusline+=%*
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ["flake8", "pyflakes"]
+let g:syntastic_always_populate_loc_list = 1
 "------------FZF-----------
 nnoremap <C-e> :Files<Enter>
 
 
 "--------DOCKER-------------
 autocmd BufNewFile,BufRead *ockerfile.*,*.*ockerfile :set filetype=dockerfile
+
+"-------YCM------------
+nnoremap f :tab split \| YcmCompleter GoToDefinition<CR>
+" nnoremap f :tab split \| YcmCompleter GoTo<CR>
