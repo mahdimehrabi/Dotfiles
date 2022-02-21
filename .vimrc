@@ -173,4 +173,4 @@ autocmd BufNewFile,BufRead *ockerfile.*,*.*ockerfile :set filetype=dockerfile
 
 "-------YCM------------
 nnoremap f :tab split \| YcmCompleter GoToDefinition<CR>
-" nnoremap f :tab split \| YcmCompleter GoTo<CR>
+nnoremap g :YcmCompleter GetDoc<CR>
