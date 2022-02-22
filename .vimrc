@@ -113,8 +113,15 @@ inoremap <c-x> <Esc>:x<CR>a
 set laststatus=2
 set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
 
-"Auto save
+" Auto save
 autocmd CursorHold,CursorHoldI * update
+
+" ----------Rename Variable---------
+" For local replace
+nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
+
+" For global replace
+nnoremap gR gD:%s/<C-R>///gc<left><left><left>
 
 
 "----------------NERDTREE CONFIGS-----------------
