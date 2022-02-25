@@ -197,5 +197,5 @@ command! -bang Emoj
       \ })
 " Ctrl-e in normal and insert mode will open the emoji picker.
 " Unfortunately doesn't bring you back to insert mode 😕
-map <C-m> :Emoj<CR>
-imap <C-m> <C-o><C-e>
+map <C-n> :Emoj<CR>
+imap <C-n> <C-o><C-e>
