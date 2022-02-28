@@ -38,6 +38,8 @@ Plugin 'lervag/vimtex'
 "FZF
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
+"GOLANG 
+Plugin 'fatih/vim-go'
 "Javascipt
 Plugin 'pangloss/vim-javascript'
 
