@@ -11,11 +11,11 @@ alias gpo='git push origin'
 alias activeenv='source ../env/bin/activate'
 
 # docker
-alias doc="sudo docker-compose"
-alias proddoc="sudo docker-compose -f docker-compose.prod.yml"
+alias doc="docker-compose"
+alias proddoc="docker-compose -f docker-compose.prod.yml"
 
-alias execdj="sudo docker-compose exec web python manage.py"
-alias prodexecdj="sudo docker-compose -f docker-compose.prod.yml exec web python manage.py"
+alias execdj="docker-compose exec web python manage.py"
+alias prodexecdj="docker-compose -f docker-compose.prod.yml exec web python manage.py"
 
-alias doclogs="sudo docker-compose logs -f"
-alias proddoclogs="sudo docker-compose -f docker-compose.prod.yml logs -f"
+alias doclogs="docker-compose logs -f"
+alias proddoclogs="docker-compose -f docker-compose.prod.yml logs -f"
