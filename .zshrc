@@ -14,3 +14,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 export DOCKER_BUILDKIT=1
+
+source ~/.bash_aliases
+
