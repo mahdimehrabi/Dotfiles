@@ -118,13 +118,13 @@ fi
 
 
 # Load aliases
-source "/home/mahdi/.bash_aliases"
+source "/home/mahd/.bash_aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$HOME/.local/bin:$PATH"
-export GOPATH="$HOME/go"
+export GOPATH="usr/local/go/bin"
 export PATH="$GOPATH/bin:$PATH"
 export DOCKER_BUILDKIT=1
 
