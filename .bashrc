@@ -124,7 +124,7 @@ source "/home/mahd/.bash_aliases"
 
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$HOME/.local/bin:$PATH"
-export GOPATH="usr/local/go/bin"
+export GOPATH="/usr/local/go/bin"
 export PATH="$GOPATH/bin:$PATH"
 export DOCKER_BUILDKIT=1
 
