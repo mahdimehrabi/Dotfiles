@@ -118,7 +118,7 @@ fi
 
 
 # Load aliases
-source "/home/mahd/.bash_aliases"
+source "~/.bash_aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
