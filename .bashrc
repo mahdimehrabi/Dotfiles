@@ -118,7 +118,7 @@ fi
 
 
 # Load aliases
-source "~/.bash_aliases"
+source "/home/$(whoami)/.bash_aliases"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
