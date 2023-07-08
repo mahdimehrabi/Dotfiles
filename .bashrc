@@ -127,4 +127,4 @@ export PATH="$HOME/.local/bin:$PATH"
 export GOPATH="/usr/local/go/bin"
 export PATH="$GOPATH/bin:$PATH"
 export DOCKER_BUILDKIT=1
-
+export PATH="$PATH:$(go env GOPATH)/bin"
