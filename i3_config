@@ -70,8 +70,8 @@ bindsym XF86AudioLowerVolume  exec --no-startup-id pamixer -d 3   && pkill -RTMI
 bindsym XF86AudioRaiseVolume  exec --no-startup-id pamixer -i 3   && pkill -RTMIN+1 i3blocks
 
 # Brightness controll
-bindsym XF86MonBrightnessUp exec --no-startup-id ~/Dotfiles/bright.sh +20  # increase
-bindsym XF86MonBrightnessDown exec --no-startup-id ~/Dotfiles/bright.sh -20  # decrease
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 20  # increase
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 20  # decrease
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
