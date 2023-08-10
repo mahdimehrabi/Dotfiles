@@ -183,7 +183,6 @@ autocmd BufNewFile,BufRead *ockerfile.*,*.*ockerfile :set filetype=dockerfile
 "-------YCM------------
 nnoremap f :tab split \| YcmCompleter GoToDefinition<CR>
 nnoremap t :YcmCompleter GetDoc<CR>
-nnoremap t :YcmCompleter GetDoc<CR>
 let g:ycm_enable_inlay_hints=1
 map <Esc>l :lopen <CR> 
 
