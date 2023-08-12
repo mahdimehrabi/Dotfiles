@@ -184,6 +184,8 @@ nnoremap <C-f> :tab split \| YcmCompleter GoToDefinition<CR>
 nnoremap t :YcmCompleter GetDoc<CR>
 let g:ycm_enable_inlay_hints=1
 map <Esc>l :lopen <CR> 
+nmap E <Plug>(YCMFindSymbolInWorkspace)
+map <ESC>e  <Plug>(YCMFindSymbolInDocument)
 
 "------Emoji------
 " Use emoji-fzf and fzf to fuzzy-search for emoji, and insert the result
