@@ -72,7 +72,6 @@ set foldmethod=indent
 set foldlevel=99
 set backspace=indent,eol,start
 se mouse+=a
-set clipboard=unnamedplus
 set modifiable 
 "Automatic close preview window after autocomplete 
 autocmd CompleteDone * pclose
