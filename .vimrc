@@ -12,7 +12,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
-"Plugin 'nvie/vim-flake8' 
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'PhilRunninger/nerdtree-visual-selection'
@@ -181,7 +180,7 @@ nnoremap <C-e> :Files<Enter>
 autocmd BufNewFile,BufRead *ockerfile.*,*.*ockerfile :set filetype=dockerfile
 
 "-------YCM------------
-nnoremap f :tab split \| YcmCompleter GoToDefinition<CR>
+nnoremap <C-f> :tab split \| YcmCompleter GoToDefinition<CR>
 nnoremap t :YcmCompleter GetDoc<CR>
 let g:ycm_enable_inlay_hints=1
 map <Esc>l :lopen <CR> 
