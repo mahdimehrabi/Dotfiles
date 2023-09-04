@@ -56,7 +56,7 @@ exec --no-startup-id kdeconnect-indicator
 exec ~/.fehbg &
 
 # Keybord layout
-exec /home/ali/en-ir-layout.sh
+exec /home/mahdi/Dotfiles/en-ir-layout.sh
 
 # Enable touchpad taps (Single and double finger)
 exec xinput set-prop 14 354 1 1 1 2 1 3
