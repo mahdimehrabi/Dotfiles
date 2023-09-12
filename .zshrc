@@ -1,8 +1,8 @@
 # Load Antigen
-source "/home/mahdi/opt/antigen/antigen.zsh"
+source "/home/mahdi/Applications/antigen.zsh"
 
 # Load Antigen configurations
-antigen init ~/.antigenrc
+antigen init ~/Dotfiles/.antigenrc
 
 # Load aliases
 source "/home/mahdi/.bash_aliases"
