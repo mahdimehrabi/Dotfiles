@@ -16,4 +16,4 @@ export PATH="$GOPATH/bin:$PATH"
 export DOCKER_BUILDKIT=1
 
 source ~/.bash_aliases
-
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
