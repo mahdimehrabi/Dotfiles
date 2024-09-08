@@ -6,6 +6,7 @@ antigen bundle git
 antigen bundle command-not-found
 antigen bundle docker
 antigen bundle docker-compose
+antigen bundle kubectl
 
 # Load bundles from external repos
 antigen bundle zsh-users/zsh-completions
